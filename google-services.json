@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080390856352",
+    "project_id": "pidal-92106",
+    "storage_bucket": "pidal-92106.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080390856352:android:107d86ff821c40b602a3c5",
+        "android_client_info": {
+          "package_name": "com.example.PIDAL"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsEY-F9QQJEL_7EhHgoX2W8DjFtb3qLSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

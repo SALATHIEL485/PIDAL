@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_purple">#7a288a</color>
+    <color name="brand_gold">#f5b01c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="indigo">#2C1B47</color>
+    <color name="bg_soft">#fcfaff</color>
+    <color name="glass_white">#A6FFFFFF</color>
+    
+    <!-- Confirm Ride Page Colors -->
+    <color name="primary_purple">#6200EE</color>
+    <color name="accent_yellow">#FFC107</color>
+    <color name="text_dark">#1A1A1A</color>
+    <color name="text_gray">#666666</color>
+    <color name="unlock_gradient_start">#D48806</color>
+
+    <!-- Top Up Page Colors -->
+    <color name="topup_purple">#7B00C7</color>
+    <color name="topup_dark_purple">#4A007A</color>
+</resources>
