@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid white background with high opacity -->
+    <item>
+        <shape>
+            <solid android:color="#F2FFFFFF" /> <!-- 95% white -->
+        </shape>
+    </item>
+    
+    <!-- The background image as a texture overlay -->
+    <item>
+        <bitmap
+            android:src="@drawable/bg_img"
+            android:alpha="0.15"
+            android:gravity="fill"
+            android:tileMode="disabled" />
+    </item>
+</layer-list>
