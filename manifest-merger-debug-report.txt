@@ -1,0 +1,924 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:2:1-64:12
+MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\d08866a08ceff775f5554fb5ddbd5aea\transformed\viewbinding-8.7.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\1fa16a108cdae2b9c59a73e52259c4d4\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\db6658d655f8e1cb51a17934baaca44a\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b6810691f7724d74a45b08ec0975b1b1\transformed\lottie-6.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3948c054e7db2a237cafa5b17ef7a7d4\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:17:1-34:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\8049f5fc580c9b8ccae25824b230e6f6\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ba342506758e390138961f3b2eada49\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8e27714112bfb07663ce58b48fa7ec27\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a8df0581046dba4b981cc4d7abed8107\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\27ceab9de3bf924a6e13201da2881be5\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\944375418383925b8418ba0af2624825\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\62eb7367c5449962bbaf187d88d88d0f\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\30f6768dc94d835ba64db8939d12ef50\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8d0cbc0f5d6e7a8a6e5a2a20b7ba13eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd2d2c859efd8123b9f6034036f66305\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\0d69074844eb8ad1a55046f4982c2702\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\297fb40d19a89b021c59d7dd740fe8d2\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd9231f2d21a11cf20bc77e4553c084a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\15d79692ef5aee3fd47438e17aa8f9d4\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a89da13b0af1645a599ad3302dd1536f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\91b530c6668d71d16a66fac70d1706ac\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\18220b6b5dc0720472029783083f0d03\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d77b0975fb4c3cb2dff8c96d966a8a5\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\5497ef11894e33b5ad6a7aa30406a2a4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\0fc1fb853559245304ae46de63c2879f\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c98b2539b2fb981655d2067626690280\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c41430a130ed76e9eda9ccc65d2c7ea8\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\e8f5f5785acec29d5cfd89f60b08a158\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\2436eafaf02896c6641a666f9fd2bf20\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\acfa82b16e4119fd07232b36ab572278\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\d5cb10b326867d4e5391163896ece61d\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f9468767b1165cadfc045de86a7e59b1\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c3927e972058aca67d2716dc3cb3d6f5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3142e0a091adb995a4f7bfef6a4f117\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3039d97e2620f1b222176eb59541a65f\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\2f0b1bf08d94398a2d146d9f21c21f03\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f0805c5249eda7e633471524dd00f384\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d4b0c24f75333cef661d5ed6bf8fdcff\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\3813238f262fa35a71463676ff27b81c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\16a75e8470e8272bf48a5e942232a193\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\9cfdad53ab32192f34dca6816c5e5568\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d6413609c987c4b3be190e8e0d83dc7f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f2b1d08d6efa7c7f814abf43affdf5e7\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\9dd41bbfca43adf9945e766a9031caa7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\d33ef1ff03615047efb12b3df8c6b467\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\41809706c66b347bc954141b2d0187aa\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\224318f94feba558dc0dbabc6acf092c\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Shiela\.gradle\caches\8.13\transforms\8defa4a5fa6961e2866565d489de054a\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8947fb572517b399aa09b049640d6d4d\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\2de0155119baaa10c0e3165b3984faa3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3e2522b2951615251e8790029c17cdc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b3385f5e8116927996528ecc567c46c6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\24bea7aeb87cab788e677cdae224c573\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\df68051162a45cd26e40415a6937b776\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\025344e125ff5045d549c76ae4eabf0b\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\89458519a3dd7217d87622cee6bc6fbc\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\b14bda8ec4aac58a8e39932dcb774953\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\05c48bd7de94e451b6a315e48dee7dd6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\da371b8dabd1150c901d32a2739a4778\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fc97c2c20922c7e0c8a4de491334381b\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\9184b3eb1c069a01409deca5f27408e2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\95642a8e69bf4cddc2f49bfc180cb9da\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7c1001751e7705ebf48fe0d35a774f2e\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\415a6ffbce11bdb1bf4c95612a2fd9dc\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f43b2a2af077766ac55012d0c526e0a8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\707fa1acbe012adff3fa5eac288b2cbe\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a1af172af921598b3eedaf38d08eb208\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\331b043b76ecca4652767ec077a27fde\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\63763de321d49087095b2df1cef409c4\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ca2c67200a9006519d267d8c48c84d8b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\22bccfab13df1dd531f71e04cf0e7e50\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8f4f3f227d25b8108c8afeffd2321dcf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Shiela\.gradle\caches\8.13\transforms\26e0af94158a81860c9c63145c56769b\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:10:5-108
+	android:maxSdkVersion
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:10:79-105
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:12:5-62:19
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:12:5-62:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\1fa16a108cdae2b9c59a73e52259c4d4\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\1fa16a108cdae2b9c59a73e52259c4d4\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b6810691f7724d74a45b08ec0975b1b1\transformed\lottie-6.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b6810691f7724d74a45b08ec0975b1b1\transformed\lottie-6.4.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a8df0581046dba4b981cc4d7abed8107\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a8df0581046dba4b981cc4d7abed8107\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\0d69074844eb8ad1a55046f4982c2702\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\0d69074844eb8ad1a55046f4982c2702\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd9231f2d21a11cf20bc77e4553c084a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd9231f2d21a11cf20bc77e4553c084a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\15d79692ef5aee3fd47438e17aa8f9d4\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\15d79692ef5aee3fd47438e17aa8f9d4\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a89da13b0af1645a599ad3302dd1536f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a89da13b0af1645a599ad3302dd1536f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\18220b6b5dc0720472029783083f0d03\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\18220b6b5dc0720472029783083f0d03\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d77b0975fb4c3cb2dff8c96d966a8a5\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d77b0975fb4c3cb2dff8c96d966a8a5\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\5497ef11894e33b5ad6a7aa30406a2a4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\5497ef11894e33b5ad6a7aa30406a2a4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\224318f94feba558dc0dbabc6acf092c\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\224318f94feba558dc0dbabc6acf092c\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\707fa1acbe012adff3fa5eac288b2cbe\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\707fa1acbe012adff3fa5eac288b2cbe\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Shiela\.gradle\caches\8.13\transforms\26e0af94158a81860c9c63145c56769b\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Shiela\.gradle\caches\8.13\transforms\26e0af94158a81860c9c63145c56769b\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:17:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:15:9-54
+	android:roundIcon
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:20:9-43
+	android:dataExtractionRules
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:14:9-65
+activity#com.example.PIDAL.LoginActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:22:9-29:20
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:23:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.PIDAL.SignupActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:32:13-60
+activity#com.example.PIDAL.LoadingActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:36:13-61
+activity#com.example.PIDAL.MainActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:40:13-58
+activity#com.example.PIDAL.ScannerActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:44:13-61
+activity#com.example.PIDAL.ConfirmRideActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:48:13-65
+activity#com.example.PIDAL.ProfileActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:52:13-61
+activity#com.example.PIDAL.TopUpActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:56:13-59
+activity#com.example.PIDAL.RideSummaryActivity
+ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml:60:13-65
+uses-sdk
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\d08866a08ceff775f5554fb5ddbd5aea\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\d08866a08ceff775f5554fb5ddbd5aea\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\1fa16a108cdae2b9c59a73e52259c4d4\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\1fa16a108cdae2b9c59a73e52259c4d4\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\db6658d655f8e1cb51a17934baaca44a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\db6658d655f8e1cb51a17934baaca44a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b6810691f7724d74a45b08ec0975b1b1\transformed\lottie-6.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b6810691f7724d74a45b08ec0975b1b1\transformed\lottie-6.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3948c054e7db2a237cafa5b17ef7a7d4\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3948c054e7db2a237cafa5b17ef7a7d4\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\8049f5fc580c9b8ccae25824b230e6f6\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\8049f5fc580c9b8ccae25824b230e6f6\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ba342506758e390138961f3b2eada49\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ba342506758e390138961f3b2eada49\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8e27714112bfb07663ce58b48fa7ec27\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8e27714112bfb07663ce58b48fa7ec27\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a8df0581046dba4b981cc4d7abed8107\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a8df0581046dba4b981cc4d7abed8107\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\27ceab9de3bf924a6e13201da2881be5\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\27ceab9de3bf924a6e13201da2881be5\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\944375418383925b8418ba0af2624825\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\944375418383925b8418ba0af2624825\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\62eb7367c5449962bbaf187d88d88d0f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\62eb7367c5449962bbaf187d88d88d0f\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\30f6768dc94d835ba64db8939d12ef50\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\30f6768dc94d835ba64db8939d12ef50\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8d0cbc0f5d6e7a8a6e5a2a20b7ba13eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8d0cbc0f5d6e7a8a6e5a2a20b7ba13eb\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd2d2c859efd8123b9f6034036f66305\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd2d2c859efd8123b9f6034036f66305\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\0d69074844eb8ad1a55046f4982c2702\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\0d69074844eb8ad1a55046f4982c2702\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\297fb40d19a89b021c59d7dd740fe8d2\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\297fb40d19a89b021c59d7dd740fe8d2\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd9231f2d21a11cf20bc77e4553c084a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fd9231f2d21a11cf20bc77e4553c084a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\15d79692ef5aee3fd47438e17aa8f9d4\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\15d79692ef5aee3fd47438e17aa8f9d4\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a89da13b0af1645a599ad3302dd1536f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a89da13b0af1645a599ad3302dd1536f\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\91b530c6668d71d16a66fac70d1706ac\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\91b530c6668d71d16a66fac70d1706ac\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\18220b6b5dc0720472029783083f0d03\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\18220b6b5dc0720472029783083f0d03\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d77b0975fb4c3cb2dff8c96d966a8a5\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d77b0975fb4c3cb2dff8c96d966a8a5\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\5497ef11894e33b5ad6a7aa30406a2a4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\5497ef11894e33b5ad6a7aa30406a2a4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\0fc1fb853559245304ae46de63c2879f\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\0fc1fb853559245304ae46de63c2879f\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c98b2539b2fb981655d2067626690280\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c98b2539b2fb981655d2067626690280\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c41430a130ed76e9eda9ccc65d2c7ea8\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\c41430a130ed76e9eda9ccc65d2c7ea8\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\e8f5f5785acec29d5cfd89f60b08a158\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\e8f5f5785acec29d5cfd89f60b08a158\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\2436eafaf02896c6641a666f9fd2bf20\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Shiela\.gradle\caches\8.13\transforms\2436eafaf02896c6641a666f9fd2bf20\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\acfa82b16e4119fd07232b36ab572278\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\acfa82b16e4119fd07232b36ab572278\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\d5cb10b326867d4e5391163896ece61d\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\d5cb10b326867d4e5391163896ece61d\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f9468767b1165cadfc045de86a7e59b1\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f9468767b1165cadfc045de86a7e59b1\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c3927e972058aca67d2716dc3cb3d6f5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c3927e972058aca67d2716dc3cb3d6f5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3142e0a091adb995a4f7bfef6a4f117\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3142e0a091adb995a4f7bfef6a4f117\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3039d97e2620f1b222176eb59541a65f\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3039d97e2620f1b222176eb59541a65f\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\2f0b1bf08d94398a2d146d9f21c21f03\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\2f0b1bf08d94398a2d146d9f21c21f03\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f0805c5249eda7e633471524dd00f384\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f0805c5249eda7e633471524dd00f384\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d4b0c24f75333cef661d5ed6bf8fdcff\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d4b0c24f75333cef661d5ed6bf8fdcff\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\3813238f262fa35a71463676ff27b81c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\3813238f262fa35a71463676ff27b81c\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\16a75e8470e8272bf48a5e942232a193\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\16a75e8470e8272bf48a5e942232a193\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\9cfdad53ab32192f34dca6816c5e5568\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\9cfdad53ab32192f34dca6816c5e5568\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d6413609c987c4b3be190e8e0d83dc7f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\d6413609c987c4b3be190e8e0d83dc7f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f2b1d08d6efa7c7f814abf43affdf5e7\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\f2b1d08d6efa7c7f814abf43affdf5e7\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\9dd41bbfca43adf9945e766a9031caa7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\9dd41bbfca43adf9945e766a9031caa7\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\d33ef1ff03615047efb12b3df8c6b467\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\d33ef1ff03615047efb12b3df8c6b467\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\41809706c66b347bc954141b2d0187aa\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\41809706c66b347bc954141b2d0187aa\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\224318f94feba558dc0dbabc6acf092c\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\224318f94feba558dc0dbabc6acf092c\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Shiela\.gradle\caches\8.13\transforms\8defa4a5fa6961e2866565d489de054a\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Shiela\.gradle\caches\8.13\transforms\8defa4a5fa6961e2866565d489de054a\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8947fb572517b399aa09b049640d6d4d\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8947fb572517b399aa09b049640d6d4d\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\2de0155119baaa10c0e3165b3984faa3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\2de0155119baaa10c0e3165b3984faa3\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3e2522b2951615251e8790029c17cdc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\a3e2522b2951615251e8790029c17cdc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b3385f5e8116927996528ecc567c46c6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\b3385f5e8116927996528ecc567c46c6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\24bea7aeb87cab788e677cdae224c573\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\24bea7aeb87cab788e677cdae224c573\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\df68051162a45cd26e40415a6937b776\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\df68051162a45cd26e40415a6937b776\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\025344e125ff5045d549c76ae4eabf0b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\025344e125ff5045d549c76ae4eabf0b\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\89458519a3dd7217d87622cee6bc6fbc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\89458519a3dd7217d87622cee6bc6fbc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\b14bda8ec4aac58a8e39932dcb774953\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\b14bda8ec4aac58a8e39932dcb774953\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\05c48bd7de94e451b6a315e48dee7dd6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\05c48bd7de94e451b6a315e48dee7dd6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\da371b8dabd1150c901d32a2739a4778\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\da371b8dabd1150c901d32a2739a4778\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fc97c2c20922c7e0c8a4de491334381b\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\fc97c2c20922c7e0c8a4de491334381b\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\9184b3eb1c069a01409deca5f27408e2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\9184b3eb1c069a01409deca5f27408e2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\95642a8e69bf4cddc2f49bfc180cb9da\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\95642a8e69bf4cddc2f49bfc180cb9da\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7c1001751e7705ebf48fe0d35a774f2e\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7c1001751e7705ebf48fe0d35a774f2e\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\415a6ffbce11bdb1bf4c95612a2fd9dc\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\415a6ffbce11bdb1bf4c95612a2fd9dc\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f43b2a2af077766ac55012d0c526e0a8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\f43b2a2af077766ac55012d0c526e0a8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\707fa1acbe012adff3fa5eac288b2cbe\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\707fa1acbe012adff3fa5eac288b2cbe\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a1af172af921598b3eedaf38d08eb208\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a1af172af921598b3eedaf38d08eb208\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\331b043b76ecca4652767ec077a27fde\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\331b043b76ecca4652767ec077a27fde\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\63763de321d49087095b2df1cef409c4\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\63763de321d49087095b2df1cef409c4\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ca2c67200a9006519d267d8c48c84d8b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ca2c67200a9006519d267d8c48c84d8b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\22bccfab13df1dd531f71e04cf0e7e50\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\22bccfab13df1dd531f71e04cf0e7e50\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8f4f3f227d25b8108c8afeffd2321dcf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\8f4f3f227d25b8108c8afeffd2321dcf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Shiela\.gradle\caches\8.13\transforms\26e0af94158a81860c9c63145c56769b\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Shiela\.gradle\caches\8.13\transforms\26e0af94158a81860c9c63145c56769b\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Shiela\AndroidStudioProjects\PIDAL\app\src\main\AndroidManifest.xml
+queries
+ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:22:5-26:15
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:23:9-25:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:24:13-86
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:24:21-83
+uses-library#androidx.camera.extensions.impl
+ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:29:9-31:40
+	android:required
+		ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\a7392f597fe9985a680912d4f0b8dbe7\transformed\camera-extensions-1.4.1\AndroidManifest.xml:30:13-59
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\711eb6c0667f77adb0cc84dedb1e1316\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\1324854cdc282b810f015a139fadb081\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\5d7832453e136983ff13cb6b029d18d6\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\ba0c0f733746614bd7b25285b4267049\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2ff1062986c9ce5c226b8c1fcf8ba535\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\76f769eb156225c87627e892c6f1b519\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\daec5dc2be71d44e71beb8c5be7cd532\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4ac4346d9960864f7719be0180bbf6d2\transformed\firebase-database-22.0.1\AndroidManifest.xml:33:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\3276bc784cd18301b2b9bab5f84e8d0e\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\c4dc83b8923316e3648ee53e65cf1661\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dfc0ace786cf3d70039fbe849323bdcd\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\2bdb19c45389ed88fcd0dbd975d9e7b9\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\6eb710040ef196c3908dc33a0a4b220d\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\dafe0285051bf361d841edc4376a9cc1\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\88de64d912de069db4a44c13fd42c498\transformed\firebase-installations-19.1.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\3af7af02f57960771604758af4e9e5bb\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Shiela\.gradle\caches\8.13\transforms\f480833a9148257192416775d70884fd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\06f79603fd0edc893b4af976f5f56384\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Shiela\.gradle\caches\8.13\transforms\7aafc53867e2528ea945b7f3251a9fad\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\Shiela\.gradle\caches\8.13\transforms\05d7849e140bb4ead3bd02a6349c4a48\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.PIDAL.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.PIDAL.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\477d47be52fdd0bddfeced7aba417760\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Shiela\.gradle\caches\8.13\transforms\4be0b63bf6da2fafd323c30df7e0fe1d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Shiela\.gradle\caches\8.13\transforms\aaf651a0f5020767755614088f961d59\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Shiela\.gradle\caches\8.13\transforms\383f593a30672f4737e02274e48ade33\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\Shiela\.gradle\caches\8.13\transforms\58e8b0c613822b95da7f3dd82036397e\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:24:9-45
