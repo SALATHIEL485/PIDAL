@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- The Map is the background layer -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Sub Menu 1 -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnSub1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="@id/btnMenu"
+        app:layout_constraintStart_toStartOf="@id/btnMenu"
+        app:layout_constraintTop_toBottomOf="@id/btnMenu"
+        app:strokeColor="#F1F5F9"
+        app:strokeWidth="1dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@drawable/settings"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Sub Menu 2 -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnSub2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="@id/btnSub1"
+        app:layout_constraintStart_toStartOf="@id/btnSub1"
+        app:layout_constraintTop_toBottomOf="@id/btnSub1"
+        app:strokeColor="#F1F5F9"
+        app:strokeWidth="1dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@drawable/terms_n_conditions" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Sub Menu 3 -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnSub3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="@id/btnSub2"
+        app:layout_constraintStart_toStartOf="@id/btnSub2"
+        app:layout_constraintTop_toBottomOf="@id/btnSub2"
+        app:strokeColor="#F1F5F9"
+        app:strokeWidth="1dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@drawable/customer_support" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Top Left Menu Button (Anchor) -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnMenu"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F1F5F9"
+        app:strokeWidth="1dp">
+        <ImageView
+            android:id="@+id/ivMenuIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/burger" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Top Right Profile Button -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnProfile"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F1F5F9"
+        app:strokeWidth="1dp">
+        <ImageView
+            android:id="@+id/ivProfileIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/profile"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Main Ride Card Overlay -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/rideCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:strokeColor="#E9D5FF"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurova"
+                    android:text="Ready to ride?\nLet's PIDAL."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/ivMainLogo"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/half_pidal" />
+            </RelativeLayout>
+
+            <!-- Status Label (Hidden when collapsed) -->
+            <TextView
+                android:id="@+id/tvAccountTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/grey_rounded_tag_bg"
+                android:fontFamily="@font/helvetica"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="3dp"
+                android:text="No** Sa*****el R****"
+                android:textColor="#1F2937"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <!-- New Collapsed Label (Shown only when burger menu is open) -->
+            <TextView
+                android:id="@+id/tvScanQrLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/grey_rounded_tag_bg"
+                android:fontFamily="@font/qurova"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="5dp"
+                android:text="SCAN QR TO RIDE"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" android:visibility="gone" />
+
+            <!-- Spacer for collapsed mode -->
+            <View
+                android:id="@+id/vCollapsedSpacer"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:visibility="gone" />
+
+            <!-- Stats Row (Hidden when collapsed) -->
+            <LinearLayout
+                android:id="@+id/llStatsRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Distance -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/ivDistanceIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/bike_loc"
+                        app:tint="@color/brand_purple" />
+                    <TextView
+                        android:id="@+id/tvMainDistanceDisplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="67 KM"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <!-- Bikes -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/ivBikesIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/bike_ques"
+                        app:tint="@color/brand_purple" />
+                    <TextView
+                        android:id="@+id/tvMainBikesDisplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="BIKES: 6"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <!-- All Set -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/ivStatusIcon"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/check" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="ALL SET"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Two Buttons (Hidden when collapsed) -->
+            <LinearLayout
+                android:id="@+id/llButtonsRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/btnTopUp"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:background="@drawable/purple_card_bg"
+                    android:padding="14dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/credit_card"
+                        app:tint="@color/white" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TOP UP"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/qurova"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Purchase Credits"
+                            android:textColor="#E9D5FF"
+                            android:textSize="9sp" />
+                        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/dark_purple_button_bg"
+                            android:gravity="center_vertical"
+                            android:paddingHorizontal="6dp"
+                            android:paddingVertical="3dp">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=" payment"
+                                android:fontFamily="@font/qurova"
+                                android:textColor="@color/white"
+                                android:textSize="11sp" />
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:src="@drawable/greater_than" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnCredits"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="1dp"
+                    android:background="@drawable/gold_card_bg"
+                    android:padding="14dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/coin"
+                        app:tint="@color/white" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CREDITS"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/qurova"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ride balance"
+                            android:textColor="#FEF3C7"
+                            android:textSize="9sp" />
+                        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/tvMainCreditsDisplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="420.69"
+                            android:textColor="@color/white"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/vSpacing"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Active Ride Card Overlay -->
+    <include
+        android:id="@+id/layoutActiveRide"
+        layout="@layout/layout_active_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Floating QR Button -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnQR"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/rideCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rideCard"
+        app:strokeColor="@color/white"
+        app:strokeWidth="4dp">
+        <ImageView
+            android:id="@+id/ivQRBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gradient" />
+        <ImageView
+            android:id="@+id/ivQRIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@drawable/qr"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

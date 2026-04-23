@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Black Outline -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,1L3,21l1,-1l8,-4l8,4l1,1L12,1z" />
+    <!-- White Inner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,3.5L6,18.5l6,-3l6,3L12,3.5z" />
+    <!-- Blue Arrow -->
+    <path
+        android:fillColor="#00AEEF"
+        android:pathData="M12,5L7.5,17l4.5,-2l4.5,2L12,5z" />
+</vector>

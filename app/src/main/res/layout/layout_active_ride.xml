@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="40dp">
+
+    <!-- Base Frame Image (Matches Screen Width) -->
+    <ImageView
+        android:id="@+id/ivActiveFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame" />
+
+    <!-- SOS Hotline Button (Overlapping Top Right of Frame) -->
+    <ImageView
+        android:id="@+id/btnEmergency"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sos_hotline"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Content Overlay aligned to the Frame -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignTop="@id/ivActiveFrame"
+        android:layout_alignBottom="@id/ivActiveFrame">
+
+        <!-- Top Header: Distance (Left) -->
+        <LinearLayout
+            android:id="@+id/llDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/bike_loc"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvActiveTotalDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:fontFamily="@font/poppins"
+                android:text="67 KM"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Top Header: Status (Center) -->
+        <LinearLayout
+            android:id="@+id/llStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/check"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:fontFamily="@font/qurova"
+                android:text="ON THE MOVE"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Bike Icon Box -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bikeIconBox"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="75dp"
+            app:cardBackgroundColor="@color/accent_yellow"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="14dp"
+                android:src="@drawable/bike"
+                app:tint="@color/white" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Bike Details -->
+        <LinearLayout
+            android:id="@+id/llBikeDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@id/bikeIconBox"
+            app:layout_constraintStart_toEndOf="@id/bikeIconBox"
+            app:layout_constraintTop_toTopOf="@id/bikeIconBox">
+
+            <TextView
+                android:id="@+id/tvActiveBikeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="POL - 2601"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:fontFamily="@font/helveticathin"
+                android:text="BIKE NO."
+                android:textColor="#94A3B8"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvActiveCharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/poppins"
+                android:text="CHARGE: XX"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvActiveCredits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:fontFamily="@font/poppins"
+                android:text="CREDITS: XXX"
+                android:textColor="#94A3B8"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- User Tag (Right) -->
+        <TextView
+            android:id="@+id/tvActiveUserTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/grey_rounded_tag_bg"
+            android:fontFamily="@font/helvetica"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="8dp"
+            android:text="No** Sa*****el R****"
+            android:textColor="#1F2937"
+            android:textSize="6sp"
+            android:textStyle="bold"
+            android:maxWidth="80dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Thick Divider Line -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="175dp"
+            android:background="@color/brand_purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Bottom Stats Row -->
+        <LinearLayout
+            android:id="@+id/llStatsRow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="190dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- Ride Time Stat -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:background="@drawable/grey_rounded_tag_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurova"
+                    android:text="RIDE TIME:"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvRideTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="00:12:34"
+                    android:textColor="@color/brand_purple"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View android:layout_width="8dp" android:layout_height="0dp" />
+
+            <!-- Distance Stat -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:background="@drawable/grey_rounded_tag_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurova"
+                    android:text="DISTANCE:"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+                    <TextView
+                        android:id="@+id/tvActiveDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="0.0"
+                        android:textColor="@color/brand_purple"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tvActiveDistanceUnit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="KM"
+                        android:textColor="@color/brand_purple"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View android:layout_width="8dp" android:layout_height="0dp" />
+
+            <!-- Pace Stat -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/grey_rounded_tag_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurova"
+                    android:text="PACE:"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+                    <TextView
+                        android:id="@+id/tvActivePace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="0"
+                        android:textColor="@color/brand_purple"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tvActivePaceUnit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="KM/H"
+                        android:textColor="@color/brand_purple"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- End Ride Flag Button -->
+    <ImageView
+        android:id="@+id/btnEndRide"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/ivActiveFrame"
+        android:layout_marginBottom="-30dp"
+        android:elevation="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flag"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true" />
+
+</RelativeLayout>

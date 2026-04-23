@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/profile_header_bg"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="&lt; Back"
+            android:textColor="#fdc500"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/helvetica"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvAvatar"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/white_circle_bg"
+                    android:gravity="center"
+                    android:text="NR"
+                    android:textColor="#f5b102"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helvetica" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFullName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helvetica"
+                        android:text="Noah Salathiel Reyes"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvMobileNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09*********"
+                        android:textColor="#e0e0e0"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/poppins" />
+
+                    <LinearLayout
+                        android:id="@+id/llVerified"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Verified"
+                            android:textColor="#f5b102"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/helvetica" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginStart="4dp"
+                            android:src="@drawable/ic_check_circle"
+                            app:tint="#f5b102" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="&gt;"
+                android:textColor="#fdc500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/benefits_btn_border"
+            android:paddingHorizontal="18dp"
+            android:text="View Benefits"
+            android:textAllCaps="false"
+            android:textColor="#fdc500"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/helvetica" />
+    </LinearLayout>
+
+    <!-- Menu List -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:paddingBottom="30dp">
+
+            <include layout="@layout/item_menu_profile" android:id="@+id/menuCredits" />
+            <include layout="@layout/item_menu_profile" android:id="@+id/menuAccounts" />
+            <include layout="@layout/item_menu_profile" android:id="@+id/menuTransactions" />
+            <include layout="@layout/item_menu_profile" android:id="@+id/menuPrivacy" />
+            <include layout="@layout/item_menu_profile" android:id="@+id/menuPromos" />
+
+            <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Log Out"
+                    android:textColor="#f5b102"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/helvetica" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&gt;"
+                    android:textColor="#f5b102"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

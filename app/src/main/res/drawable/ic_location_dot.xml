@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Black Outline -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,12m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    <!-- White Inner (for contrast) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,12m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <!-- Blue Dot -->
+    <path
+        android:fillColor="#00AEEF"
+        android:pathData="M12,12m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>
